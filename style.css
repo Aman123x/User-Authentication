@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: #f8fafc;
+}
+
+.container {
+    padding-bottom: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("./assets/Background Pattern.svg") bottom center/100%
+    no-repeat;
+}
+
+.signUp {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.signUp1 {
+  padding: 40px;
+}
+
+.signUp1 > p:first-child {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.signUp1 > p:nth-child(2) {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  margin-block: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  margin-top: 5px;
+  padding: 10px 10px;
+  outline: blue;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+}
+
+.button {
+  margin-top: 12px;
+  padding: 15px 14px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+  border: none;
+}
+
+#btn{   
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.bottom>p{
+    margin-top: 30px;
+}
+
+#bottom-sign{
+    color: #625BF7;
+}
